@@ -1,5 +1,5 @@
 .page {
-  min-width: 1100px;
+  min-width: fit-content;
   max-width: 1600px;
   box-sizing: border-box;
   margin: 0 auto;

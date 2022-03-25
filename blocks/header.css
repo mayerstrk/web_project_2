@@ -9,16 +9,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
-
-.nav {
-  border: 2px red solid;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
 
 .header__logo {
   position: absolute;
@@ -27,7 +18,7 @@
   height: 140px;   
 }
 
-.nav__links {
+.header__nav{
   float: right;
   display: flex;
   column-gap: 20px;
@@ -35,14 +26,14 @@
   margin-right: 80px;
 }
 
-.nav__link {
+.header__nav-link {
   color:black;
   text-decoration: none;
   font-weight: 500;
   transition: color ease-in-out .4s;
 }
 
-.nav__link:hover {
+.header__nav-link:hover {
   color: #2F80ED;
 }
 
