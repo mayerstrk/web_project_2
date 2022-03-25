@@ -35,6 +35,7 @@
   width: fit-content;
   justify-content: center;
   column-gap: 40px;
+  flex-wrap: wrap;
   margin: 0 auto 0;
 }
 

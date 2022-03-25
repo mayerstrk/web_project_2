@@ -1,7 +1,6 @@
 .page {
   min-width: 1100px;
   max-width: 1600px;
-  overflow: hidden;
   box-sizing: border-box;
   margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;

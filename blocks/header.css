@@ -1,7 +1,4 @@
 .header {
-  height: 100vh;
-  min-height: 720px;
-  max-height: 800px;
   position: relative;
   box-sizing: border-box;
   background-color: white;
@@ -9,6 +6,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 
 .header__logo {
@@ -44,6 +43,7 @@
   clear: both;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0;
 }
 
