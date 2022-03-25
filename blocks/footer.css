@@ -7,9 +7,7 @@
   flex-wrap: wrap;
   background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
 
-  color: #fff
-  
-
+  color: #fff;
 }
 
 .footer__content {
@@ -61,7 +59,7 @@
 }
 
 .footer__social-link:hover {
-  color: #C1C1C1
+  color: #C1C1C1;
 }
 
 .footer__copyright {

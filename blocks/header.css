@@ -49,7 +49,7 @@
 .header__main {
   position: relative;
   align-items: flex-start;
-  padding: 74px;;
+  padding: 74px;
   clear: both;
   display: flex;
   justify-content: space-between;
@@ -76,7 +76,7 @@
   font-family: 'Noto Serif', "Times New Roman", serif;
   font-weight: normal;
   font-style: italic;
-  color: #2F80ED ;
+  color: #2F80ED;
 }
 
 .header__description {
