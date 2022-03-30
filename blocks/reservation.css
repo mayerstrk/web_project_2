@@ -36,16 +36,17 @@
   border: none;
 }
 
-.form__fieldset:last-of-type {
-  margin: 0;
-  text-align: center;
-}
+
 
 .form__label {
   display: block;
   margin:0 0 8px;
 
   font-weight: 500;
+}
+
+.form__label_for_checkbox {
+  margin: 0;
 }
 
 .form__input {
@@ -80,6 +81,7 @@
   width: 100%;
   height: 60px;
   padding: 15px 19px;
+  border: none;
   border-radius: 4px;
 
   background-color: #2F80ED;
@@ -93,26 +95,22 @@
   opacity: 70%;
 }
 
-.form__input-checkbox {
-  border-radius: 2px;
+.form__fieldset_type_checkbox {
+  display: flex;
+  justify-content: center;
+  column-gap: 12px;
+  margin: 0
 }
 
-.form__input[type="checkbox"] {
-  display: inline-block;
+.form__checkbox {
   width: fit-content;
   min-width: 20px;
   min-height: 20px;
-  border-radius: 2px;
-  
-  vertical-align: middle;
+  border-radius: 2px; 
 }
 
-.form__input[type="checkbox"]:focus {
+.form__checkbox:focus {
   outline: none;
 }
 
-.form__label[for="terms"] {
-  display: inline;
-  margin-left: 12px;
-  vertical-align: middle;
-}
+

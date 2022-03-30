@@ -19,8 +19,8 @@
 }
 
 .footer__logo {
-  width: 153;
-  height: 32;
+  width: 153px;
+  height: 32px;
 }
 
 .footer__social {
@@ -55,14 +55,15 @@
 }
 
 .footer__social-link {
-  transition: color .4s ease-in-out;
+  border-radius: 5px;
+  transition: background-color .4s ease-in-out;
 }
 
 .footer__social-link:hover {
-  color: #C1C1C1;
+  background-color: #C1C1C1;
 }
 
 .footer__copyright {
   align-self: flex-end;
-  margin-top: 100px;
+  margin: 108px 0 0;
 }

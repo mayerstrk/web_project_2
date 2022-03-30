@@ -26,15 +26,16 @@
 }
 
 .about__title {
-  margin-left: 80px;
-  max-width: 52px;
+  margin: 0 0 0 80px;
+  height: fit-content;
+  width: fit-content;
   z-index: 1;
 
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   color: #fff;
-  width: fit-content;
+  
 }
 
 .about__circle {
