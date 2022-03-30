@@ -15,7 +15,7 @@
 }
 
 .logo {
-  height: 142spx;
+  height: 142px;
   margin-left: 30px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .nav__links {
-  height:fit-content ;
+  height:fit-content;
   margin-right: 80px;
   display: flex;
   column-gap: 20px;
@@ -41,7 +41,7 @@
 }
 
 .nav__link:hover {
-  color: #2F80ED
+  color: #2F80ED;
 }
 
 .header__main {
@@ -68,7 +68,7 @@
   font-size: 60px;
   line-height: 72px;
 
-color: #2F80ED
+color: #2F80ED;
 }
 
 .header__description {
