@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__links {
+  height:fit-content;
+  margin-right: 80px;
+  display: flex;
+  column-gap: 20px;
+}
+
+.nav__link {
+  line-height: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+
+  transition: color ease-in-out .3s;
+}
+
+.nav__link:hover {
+  color: #2F80ED;
+}
